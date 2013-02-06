@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,stairs # tag version, format, zone name
-*date Wed Feb  6 17:20:48 2013  # latest file modification 
+*date Wed Feb  6 18:01:40 2013  # latest file modification 
 stairs
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,3.50000,3.00000,0.00000  #   1
@@ -37,18 +37,18 @@ stairs
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-1,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
-*surf,Wall-2,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
-*surf,Wall-3,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
-*surf,Wall-4,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
-*surf,Top-5,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
-*surf,Base-6,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
-*surf,stairs-toile,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   7 ||< external
-*surf,strs-toil2,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   8 ||< external
-*surf,strs-2nd,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   9 ||< external
-*surf,strs-2ndW,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #  10 ||< external
-*surf,Wall-11,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #  11 ||< external
-*surf,strs-bdrm,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #  12 ||< external
+*surf,Wall-1,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,01,03  #   1 ||< living-N2:living
+*surf,Wall-2,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,01,04  #   2 ||< living-strs:living
+*surf,Wall-3,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,05,07  #   3 ||< garage-strs:garage
+*surf,Wall-4,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,04,02  #   4 ||< Wall-2:bdrm1
+*surf,Top-5,CEIL,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   5 ||< external
+*surf,Base-6,FLOR,-,-,-,UNKNOWN,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
+*surf,stairs-toile,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,03,04  #   7 ||< Wall-4:toilet
+*surf,strs-toil2,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,06,04  #   8 ||< Wall-4:toilet2
+*surf,strs-2nd,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,09,02  #   9 ||< bd4-strs:bdrm4
+*surf,strs-2ndW,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,07,02  #  10 ||< Wall-2:bdrm2
+*surf,Wall-11,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #  11 ||< external
+*surf,strs-bdrm,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,09,03  #  12 ||< bd4-strs2:bdrm4
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

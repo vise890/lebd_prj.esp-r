@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,garage # tag version, format, zone name
-*date Wed Feb  6 17:51:16 2013  # latest file modification 
+*date Wed Feb  6 18:02:35 2013  # latest file modification 
 garage + utility room
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,7.00000,0.00000  #   1
@@ -30,14 +30,14 @@ garage + utility room
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,garage-E,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
-*surf,garage-N,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
-*surf,garage-W,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
-*surf,garage-top,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
-*surf,garage-flr,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
-*surf,garage-t1,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   6 ||< external
-*surf,garage-strs,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   7 ||< external
-*surf,garage-bdrm1,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   8 ||< external
+*surf,garage-E,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   1 ||< external
+*surf,garage-N,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   2 ||< external
+*surf,garage-W,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   3 ||< external
+*surf,garage-top,CEIL,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   4 ||< external
+*surf,garage-flr,FLOR,-,-,-,UNKNOWN,OPAQUE,GROUND,01,00  #   5 ||< ground profile  1
+*surf,garage-t1,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,03,03  #   6 ||< Wall-3:toilet
+*surf,garage-strs,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,02,03  #   7 ||< Wall-3:stairs
+*surf,garage-bdrm1,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,04,03  #   8 ||< Wall-3:bdrm1
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

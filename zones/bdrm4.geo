@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrm4 # tag version, format, zone name
-*date Wed Feb  6 17:56:46 2013  # latest file modification 
+*date Wed Feb  6 18:03:34 2013  # latest file modification 
 bdrm4 on 1st floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,3.50000,0.00000,3.00000  #   1
@@ -30,14 +30,14 @@ bdrm4 on 1st floor
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,bd4-bd3,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
-*surf,bd4-strs,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
-*surf,bd4-strs2,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
-*surf,bd4-t2,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
-*surf,bd4-E,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
-*surf,BD4-S,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
-*surf,bd4-top,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   7 ||< not yet defined
-*surf,bd4-flr,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   8 ||< not yet defined
+*surf,bd4-bd3,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,08,02  #   1 ||< Wall-2:bdrm3
+*surf,bd4-strs,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,02,09  #   2 ||< strs-2nd:stairs
+*surf,bd4-strs2,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,02,12  #   3 ||< strs-bdrm:stairs
+*surf,bd4-t2,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,06,01  #   4 ||< Wall-1:toilet2
+*surf,bd4-E,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   5 ||< external
+*surf,BD4-S,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   6 ||< external
+*surf,bd4-top,CEIL,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   7 ||< external
+*surf,bd4-flr,FLOR,-,-,-,UNKNOWN,OPAQUE,ANOTHER,01,08  #   8 ||< living-top:living
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
