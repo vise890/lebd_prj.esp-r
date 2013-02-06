@@ -1,5 +1,5 @@
 *connections for lebd_prj
-*Date Wed Feb  6 18:33:09 2013
+*Date Wed Feb  6 18:35:23 2013
      68   # number of connections
    1   1   0   0   0  #    1 living-W in living is External
    1   2   3   4   1  #    2 living-N in living >|< bdrm1-living in bdrm1
@@ -10,7 +10,7 @@
    1   7   0   0   0  #    7 living-S in living is External
    1   8   3   9   8  #    8 living-top in living >|< bd4-flr in bdrm4
    1   9   4   1   0  #    9 living-flr in living >|< ground profile 1
-   1  10   3   8   6  #   10 living-top2 in living >|< Base-6 in bdrm3
+   1  10   3   8   6  #   10 living-top2 in living >|< bdrm3-flr in bdrm3
    2   1   3   1   3  #   11 strs-living in stairs >|< living-N2 in living
    2   2   3   1   4  #   12 strs-living- in stairs >|< living-strs in living
    2   3   3   5   7  #   13 strs-garage in stairs >|< garage-strs in garage
@@ -49,19 +49,19 @@
    6   4   3   2   8  #   46 toil2-stairs in toil2 >|< strs-toil2 in stairs
    6   5   0   0   0  #   47 toil2-roof in toil2 is External
    6   6   3   3   5  #   48 toil2-flr in toil2 >|< toil1-ceil in toil1
-   7   1   3   8   3  #   49 bdrm2-bdrm3 in bdrm2 >|< Wall-3 in bdrm3
+   7   1   3   8   3  #   49 bdrm2-bdrm3 in bdrm2 >|< bdrm3-bdrm2 in bdrm3
    7   2   3   2  10  #   50 bdrm2-stairs in bdrm2 >|< strs-bdrm2 in stairs
    7   3   0   0   0  #   51 bdrm2-NORTH in bdrm2 is External
    7   4   0   0   0  #   52 bdrm4-WEST in bdrm2 is External
    7   5   0   0   0  #   53 bdrm2-roof in bdrm2 is External
    7   6   3   4   5  #   54 bdrm2-flr in bdrm2 >|< bdrm1-ceil in bdrm1
-   8   1   0   0   0  #   55 Wall-1 in bdrm3 is External
-   8   2   3   9   1  #   56 Wall-2 in bdrm3 >|< bd4-bd3 in bdrm4
-   8   3   3   7   1  #   57 Wall-3 in bdrm3 >|< bdrm2-bdrm3 in bdrm2
-   8   4   0   0   0  #   58 Wall-4 in bdrm3 is External
-   8   5   0   0   0  #   59 Top-5 in bdrm3 is External
-   8   6   3   1  10  #   60 Base-6 in bdrm3 >|< living-top2 in living
-   9   1   3   8   2  #   61 bd4-bd3 in bdrm4 >|< Wall-2 in bdrm3
+   8   1   0   0   0  #   55 bdrm3-SOUTH in bdrm3 is External
+   8   2   3   9   1  #   56 bdrm3-bdrm4 in bdrm3 >|< bd4-bd3 in bdrm4
+   8   3   3   7   1  #   57 bdrm3-bdrm2 in bdrm3 >|< bdrm2-bdrm3 in bdrm2
+   8   4   0   0   0  #   58 bdrm3-WEST in bdrm3 is External
+   8   5   0   0   0  #   59 bdrm3-roof in bdrm3 is External
+   8   6   3   1  10  #   60 bdrm3-flr in bdrm3 >|< living-top2 in living
+   9   1   3   8   2  #   61 bd4-bd3 in bdrm4 >|< bdrm3-bdrm4 in bdrm3
    9   2   3   2   9  #   62 bd4-strs in bdrm4 >|< strs-bdrm4 in stairs
    9   3   3   2  12  #   63 bd4-strs2 in bdrm4 >|< strs-bdrm4E in stairs
    9   4   3   6   1  #   64 bd4-t2 in bdrm4 >|< toil2-bdrm4 in toil2
