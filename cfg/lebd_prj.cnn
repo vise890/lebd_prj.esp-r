@@ -1,5 +1,5 @@
 *connections for lebd_prj
-*Date Wed Feb  6 19:03:54 2013
+*Date Wed Feb  6 19:05:38 2013
      68   # number of connections
    1   1   0   0   0  #    1 living-W in living is External
    1   2   3   4   1  #    2 living-N in living >|< bdrm1-living in bdrm1
