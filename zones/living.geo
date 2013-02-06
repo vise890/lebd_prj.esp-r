@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,living # tag version, format, zone name
-*date Tue Feb  5 17:00:52 2013  # latest file modification 
+*date Wed Feb  6 17:36:48 2013  # latest file modification 
 living + kitchen
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -16,17 +16,18 @@ living + kitchen
 *vertex,6.50000,4.50000,3.00000  #  12
 *vertex,8.50000,4.50000,3.00000  #  13
 *vertex,8.50000,0.00000,3.00000  #  14
+*vertex,3.50000,0.00000,3.00000  #  15
 # 
 # tag, number of vertices followed by list of associated vert
-*edges,4,1,2,9,8  #  1
-*edges,4,2,3,10,9  #  2
-*edges,4,3,4,11,10  #  3
-*edges,4,4,5,12,11  #  4
-*edges,4,5,6,13,12  #  5
-*edges,4,6,7,14,13  #  6
-*edges,4,7,1,8,14  #  7
-*edges,7,8,9,10,11,12,13,14  #  8
-*edges,7,1,7,6,5,4,3,2  #  9
+*edges,4,2,1,8,9  #  1
+*edges,4,3,2,9,10  #  2
+*edges,4,4,3,10,11  #  3
+*edges,4,5,4,11,12  #  4
+*edges,4,6,5,12,13  #  5
+*edges,4,7,6,13,14  #  6
+*edges,5,1,7,14,15,8  #  7
+*edges,8,9,8,15,14,13,12,11,10  #  8
+*edges,7,7,1,2,3,4,5,6  #  9
 # 
 # surf attributes:
 #  surf name, surf position VERT/CEIL/FLOR/SLOP/UNKN
@@ -40,8 +41,8 @@ living + kitchen
 *surf,Wall-5,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
 *surf,Wall-6,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
 *surf,Wall-7,VERT,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   7 ||< not yet defined
-*surf,Base-8,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   8 ||< not yet defined
-*surf,Top-9,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   9 ||< not yet defined
+*surf,Base-8,CEIL,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   8 ||< not yet defined
+*surf,Top-9,FLOR,-,-,-,UNKNOWN,OPAQUE,UNKNOWN,0,0  #   9 ||< not yet defined
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
@@ -50,4 +51,4 @@ living + kitchen
 # 
 *insol_calc,none  # no insolation requested
 # 
-*base_list,0,28.50,0  # zone base
+*base_list,0,57.00,0  # zone base
