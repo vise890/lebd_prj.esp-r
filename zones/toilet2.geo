@@ -1,5 +1,5 @@
-*Geometry 1.1,GEN,toilet2 # tag version, format, zone name
-*date Wed Feb  6 18:02:50 2013  # latest file modification 
+*Geometry 1.1,GEN,toil2 # tag version, format, zone name
+*date Wed Feb  6 18:28:12 2013  # latest file modification 
 toilet2 on 1st floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,6.50000,4.50000,3.00000  #   1
@@ -24,12 +24,12 @@ toilet2 on 1st floor
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-1,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,09,04  #   1 ||< bd4-t2:bdrm4
-*surf,Wall-2,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   2 ||< external
-*surf,Wall-3,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   3 ||< external
-*surf,Wall-4,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,02,08  #   4 ||< strs-toil2:stairs
-*surf,Top-5,CEIL,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   5 ||< external
-*surf,Base-6,FLOR,-,-,-,UNKNOWN,OPAQUE,ANOTHER,03,05  #   6 ||< Top-5:toilet
+*surf,toil2-bdrm4,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,09,04  #   1 ||< bd4-t2:bdrm4
+*surf,toil2-EAST,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   2 ||< external
+*surf,toil2-NORTH,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   3 ||< external
+*surf,toil2-stairs,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,02,08  #   4 ||< strs-toil2:stairs
+*surf,toil2-roof,CEIL,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   5 ||< external
+*surf,toil2-flr,FLOR,-,-,-,UNKNOWN,OPAQUE,ANOTHER,03,05  #   6 ||< toil1-ceil:toilet
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
