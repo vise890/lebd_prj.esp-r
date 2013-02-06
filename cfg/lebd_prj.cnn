@@ -1,8 +1,8 @@
 *connections for lebd_prj
-*Date Wed Feb  6 18:19:28 2013
+*Date Wed Feb  6 18:22:23 2013
      68   # number of connections
    1   1   0   0   0  #    1 living-W in living is External
-   1   2   3   4   1  #    2 living-N in living >|< Wall-1 in bdrm1
+   1   2   3   4   1  #    2 living-N in living >|< bdrm1-living in bdrm1
    1   3   3   2   1  #    3 living-N2 in living >|< strs-living in stairs
    1   4   3   2   2  #    4 living-strs in living >|< strs-living- in stairs
    1   5   3   3   1  #    5 liivng-N3 in living >|< Wall-1 in toilet
@@ -14,7 +14,7 @@
    2   1   3   1   3  #   11 strs-living in stairs >|< living-N2 in living
    2   2   3   1   4  #   12 strs-living- in stairs >|< living-strs in living
    2   3   3   5   7  #   13 strs-garage in stairs >|< garage-strs in garage
-   2   4   3   4   2  #   14 strs-bdrm1 in stairs >|< Wall-2 in bdrm1
+   2   4   3   4   2  #   14 strs-bdrm1 in stairs >|< bdrm1-stairs in bdrm1
    2   5   0   0   0  #   15 strs-roof in stairs is External
    2   6   4   1   0  #   16 strs-floor in stairs >|< ground profile 1
    2   7   3   3   4  #   17 strs-toil1 in stairs >|< Wall-4 in toilet
@@ -29,12 +29,12 @@
    3   4   3   2   7  #   26 Wall-4 in toilet >|< strs-toil1 in stairs
    3   5   3   6   6  #   27 Top-5 in toilet >|< Base-6 in toilet2
    3   6   4   1   0  #   28 Base-6 in toilet >|< ground profile 1
-   4   1   3   1   2  #   29 Wall-1 in bdrm1 >|< living-N in living
-   4   2   3   2   4  #   30 Wall-2 in bdrm1 >|< strs-bdrm1 in stairs
-   4   3   3   5   8  #   31 Wall-3 in bdrm1 >|< garage-bdrm1 in garage
-   4   4   0   0   0  #   32 Wall-4 in bdrm1 is External
-   4   5   3   7   6  #   33 Top-5 in bdrm1 >|< Base-6 in bdrm2
-   4   6   4   1   0  #   34 Base-6 in bdrm1 >|< ground profile 1
+   4   1   3   1   2  #   29 bdrm1-living in bdrm1 >|< living-N in living
+   4   2   3   2   4  #   30 bdrm1-stairs in bdrm1 >|< strs-bdrm1 in stairs
+   4   3   3   5   8  #   31 bdrm1-garage in bdrm1 >|< garage-bdrm1 in garage
+   4   4   0   0   0  #   32 bdrm1-WEST in bdrm1 is External
+   4   5   3   7   6  #   33 bdrm1-ceil in bdrm1 >|< Base-6 in bdrm2
+   4   6   4   1   0  #   34 bdrm1-flr in bdrm1 >|< ground profile 1
    5   1   0   0   0  #   35 garage-E in garage is External
    5   2   0   0   0  #   36 garage-N in garage is External
    5   3   0   0   0  #   37 garage-W in garage is External
@@ -42,7 +42,7 @@
    5   5   4   1   0  #   39 garage-flr in garage >|< ground profile 1
    5   6   3   3   3  #   40 garage-t1 in garage >|< Wall-3 in toilet
    5   7   3   2   3  #   41 garage-strs in garage >|< strs-garage in stairs
-   5   8   3   4   3  #   42 garage-bdrm1 in garage >|< Wall-3 in bdrm1
+   5   8   3   4   3  #   42 garage-bdrm1 in garage >|< bdrm1-garage in bdrm1
    6   1   3   9   4  #   43 Wall-1 in toilet2 >|< bd4-t2 in bdrm4
    6   2   0   0   0  #   44 Wall-2 in toilet2 is External
    6   3   0   0   0  #   45 Wall-3 in toilet2 is External
@@ -54,7 +54,7 @@
    7   3   0   0   0  #   51 Wall-3 in bdrm2 is External
    7   4   0   0   0  #   52 Wall-4 in bdrm2 is External
    7   5   0   0   0  #   53 Top-5 in bdrm2 is External
-   7   6   3   4   5  #   54 Base-6 in bdrm2 >|< Top-5 in bdrm1
+   7   6   3   4   5  #   54 Base-6 in bdrm2 >|< bdrm1-ceil in bdrm1
    8   1   0   0   0  #   55 Wall-1 in bdrm3 is External
    8   2   3   9   1  #   56 Wall-2 in bdrm3 >|< bd4-bd3 in bdrm4
    8   3   3   7   1  #   57 Wall-3 in bdrm3 >|< Wall-1 in bdrm2

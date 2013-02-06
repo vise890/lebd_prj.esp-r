@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrm1 # tag version, format, zone name
-*date Wed Feb  6 18:02:17 2013  # latest file modification 
+*date Wed Feb  6 18:22:22 2013  # latest file modification 
 bedroom, grnd floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,3.00000,0.00000  #   1
@@ -24,12 +24,12 @@ bedroom, grnd floor
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,Wall-1,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,01,02  #   1 ||< living-N:living
-*surf,Wall-2,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,02,04  #   2 ||< Wall-4:stairs
-*surf,Wall-3,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,05,08  #   3 ||< garage-bdrm1:garage
-*surf,Wall-4,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,00,00  #   4 ||< external
-*surf,Top-5,CEIL,-,-,-,UNKNOWN,OPAQUE,ANOTHER,07,06  #   5 ||< Base-6:bdrm2
-*surf,Base-6,FLOR,-,-,-,UNKNOWN,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
+*surf,bdrm1-living,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,01,02  #   1 ||< living-N:living
+*surf,bdrm1-stairs,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,02,04  #   2 ||< strs-bdrm1:stairs
+*surf,bdrm1-garage,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,05,08  #   3 ||< garage-bdrm1:garage
+*surf,bdrm1-WEST,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   4 ||< external
+*surf,bdrm1-ceil,CEIL,-,-,-,UNKNOWN,OPAQUE,ANOTHER,07,06  #   5 ||< Base-6:bdrm2
+*surf,bdrm1-flr,FLOR,-,-,-,UNKNOWN,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
