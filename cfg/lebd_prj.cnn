@@ -1,5 +1,5 @@
 *connections for lebd_prj
-*Date Wed Feb  6 17:51:29 2013
+*Date Wed Feb  6 17:58:00 2013
      68   # number of connections
    1   1  -1   0   0  #    1 living-W in living not yet defined
    1   2  -1   0   0  #    2 living-N in living not yet defined
@@ -61,11 +61,11 @@
    8   4  -1   0   0  #   58 Wall-4 in bdrm3 not yet defined
    8   5  -1   0   0  #   59 Top-5 in bdrm3 not yet defined
    8   6  -1   0   0  #   60 Base-6 in bdrm3 not yet defined
-   9   1  -1   0   0  #   61 Wall-1 in bdrm4 not yet defined
-   9   2  -1   0   0  #   62 Wall-2 in bdrm4 not yet defined
-   9   3  -1   0   0  #   63 Wall-3 in bdrm4 not yet defined
-   9   4  -1   0   0  #   64 Wall-4 in bdrm4 not yet defined
-   9   5  -1   0   0  #   65 Wall-5 in bdrm4 not yet defined
-   9   6  -1   0   0  #   66 Wall-6 in bdrm4 not yet defined
-   9   7  -1   0   0  #   67 Base-7 in bdrm4 not yet defined
-   9   8  -1   0   0  #   68 Top-8 in bdrm4 not yet defined
+   9   1  -1   0   0  #   61 bd4-bd3 in bdrm4 not yet defined
+   9   2  -1   0   0  #   62 bd4-strs in bdrm4 not yet defined
+   9   3  -1   0   0  #   63 bd4-strs2 in bdrm4 not yet defined
+   9   4  -1   0   0  #   64 bd4-t2 in bdrm4 not yet defined
+   9   5  -1   0   0  #   65 bd4-E in bdrm4 not yet defined
+   9   6  -1   0   0  #   66 BD4-S in bdrm4 not yet defined
+   9   7  -1   0   0  #   67 bd4-top in bdrm4 not yet defined
+   9   8  -1   0   0  #   68 bd4-flr in bdrm4 not yet defined
