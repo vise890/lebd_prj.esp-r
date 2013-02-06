@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrm2 # tag version, format, zone name
-*date Wed Feb  6 18:53:51 2013  # latest file modification 
+*date Wed Feb  6 19:02:33 2013  # latest file modification 
 bdrm2 on 1st floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,3.00000,3.00000  #   1
@@ -24,11 +24,11 @@ bdrm2 on 1st floor
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,bdrm2-bdrm3,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,08,03  #   1 ||< bdrm3-bdrm2:bdrm3
-*surf,bdrm2-stairs,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,02,10  #   2 ||< strs-bdrm2:stairs
-*surf,bdrm2-NORTH,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   3 ||< external
-*surf,bdrm4-WEST,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   4 ||< external
-*surf,bdrm2-roof,CEIL,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   5 ||< external
+*surf,bdrm2-bdrm3,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,08,03  #   1 ||< bdrm3-bdrm2:bdrm3
+*surf,bdrm2-stairs,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,02,10  #   2 ||< strs-bdrm2:stairs
+*surf,bdrm2-NORTH,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,0,0  #   3 ||< external
+*surf,bdrm4-WEST,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,0,0  #   4 ||< external
+*surf,bdrm2-roof,CEIL,-,-,-,PH_roof,OPAQUE,EXTERIOR,0,0  #   5 ||< external
 *surf,bdrm2-flr,FLOR,-,-,-,ceiling_rev,OPAQUE,ANOTHER,04,05  #   6 ||< bdrm1-ceil:bdrm1
 # 
 *insol,3,0,0,0  # default insolation distribution
