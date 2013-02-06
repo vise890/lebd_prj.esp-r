@@ -1,5 +1,5 @@
 *connections for lebd_prj
-*Date Wed Feb  6 18:24:50 2013
+*Date Wed Feb  6 18:26:12 2013
      68   # number of connections
    1   1   0   0   0  #    1 living-W in living is External
    1   2   3   4   1  #    2 living-N in living >|< bdrm1-living in bdrm1
@@ -25,7 +25,7 @@
    2  12   3   9   3  #   22 strs-bdrm4E in stairs >|< bd4-strs2 in bdrm4
    3   1   3   1   5  #   23 toil1-living in toilet >|< liivng-N3 in living
    3   2   0   0   0  #   24 toil1-WEST in toilet is External
-   3   3   3   5   6  #   25 toil1-garage in toilet >|< garage-t1 in garage
+   3   3   3   5   6  #   25 toil1-garage in toilet >|< garage-toil1 in garage
    3   4   3   2   7  #   26 toil1-stairs in toilet >|< strs-toil1 in stairs
    3   5   3   6   6  #   27 toil1-ceil in toilet >|< Base-6 in toilet2
    3   6   4   1   0  #   28 toil1-flr in toilet >|< ground profile 1
@@ -38,9 +38,9 @@
    5   1   0   0   0  #   35 garage-E in garage is External
    5   2   0   0   0  #   36 garage-N in garage is External
    5   3   0   0   0  #   37 garage-W in garage is External
-   5   4   0   0   0  #   38 garage-top in garage is External
+   5   4   0   0   0  #   38 garage-roof in garage is External
    5   5   4   1   0  #   39 garage-flr in garage >|< ground profile 1
-   5   6   3   3   3  #   40 garage-t1 in garage >|< toil1-garage in toilet
+   5   6   3   3   3  #   40 garage-toil1 in garage >|< toil1-garage in toilet
    5   7   3   2   3  #   41 garage-strs in garage >|< strs-garage in stairs
    5   8   3   4   3  #   42 garage-bdrm1 in garage >|< bdrm1-garage in bdrm1
    6   1   3   9   4  #   43 Wall-1 in toilet2 >|< bd4-t2 in bdrm4
