@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrm3 # tag version, format, zone name
-*date Wed Feb  6 18:35:22 2013  # latest file modification 
+*date Wed Feb  6 18:46:30 2013  # latest file modification 
 bdrm3 on 1st floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,3.00000  #   1
@@ -29,7 +29,7 @@ bdrm3 on 1st floor
 *surf,bdrm3-bdrm2,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,07,01  #   3 ||< bdrm2-bdrm3:bdrm2
 *surf,bdrm3-WEST,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   4 ||< external
 *surf,bdrm3-roof,CEIL,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   5 ||< external
-*surf,bdrm3-flr,FLOR,-,-,-,UNKNOWN,OPAQUE,ANOTHER,01,10  #   6 ||< living-top2:living
+*surf,bdrm3-flr,FLOR,-,-,-,ceiling_rev,OPAQUE,ANOTHER,01,10  #   6 ||< living-top2:living
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
