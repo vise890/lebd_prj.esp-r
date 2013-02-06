@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,stairs # tag version, format, zone name
-*date Wed Feb  6 18:19:18 2013  # latest file modification 
+*date Wed Feb  6 18:49:46 2013  # latest file modification 
 stairs
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,3.50000,3.00000,0.00000  #   1
@@ -37,18 +37,18 @@ stairs
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,strs-living,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,01,03  #   1 ||< living-N2:living
-*surf,strs-living-,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,01,04  #   2 ||< living-strs:living
-*surf,strs-garage,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,05,07  #   3 ||< garage-strs:garage
-*surf,strs-bdrm1,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,04,02  #   4 ||< Wall-2:bdrm1
-*surf,strs-roof,CEIL,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   5 ||< external
-*surf,strs-floor,FLOR,-,-,-,UNKNOWN,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
-*surf,strs-toil1,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,03,04  #   7 ||< Wall-4:toilet
-*surf,strs-toil2,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,06,04  #   8 ||< Wall-4:toilet2
-*surf,strs-bdrm4,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,09,02  #   9 ||< bd4-strs:bdrm4
-*surf,strs-bdrm2,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,07,02  #  10 ||< Wall-2:bdrm2
-*surf,strs-NORTH,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #  11 ||< external
-*surf,strs-bdrm4E,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,09,03  #  12 ||< bd4-strs2:bdrm4
+*surf,strs-living,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,01,03  #   1 ||< living-N2:living
+*surf,strs-living-,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,01,04  #   2 ||< living-strs:living
+*surf,strs-garage,VERT,-,-,-,PH_ext_wll,OPAQUE,ANOTHER,05,07  #   3 ||< garage-strs:garage
+*surf,strs-bdrm1,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,04,02  #   4 ||< bdrm1-stairs:bdrm1
+*surf,strs-roof,CEIL,-,-,-,PH_roof,OPAQUE,EXTERIOR,0,0  #   5 ||< external
+*surf,strs-floor,FLOR,-,-,-,grnd_floor,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
+*surf,strs-toil1,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,03,04  #   7 ||< toil1-stairs:toil1
+*surf,strs-toil2,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,06,04  #   8 ||< toil2-stairs:toil2
+*surf,strs-bdrm4,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,09,02  #   9 ||< bd4-strs:bdrm4
+*surf,strs-bdrm2,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,07,02  #  10 ||< bdrm2-stairs:bdrm2
+*surf,strs-NORTH,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,0,0  #  11 ||< external
+*surf,strs-bdrm4E,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,09,03  #  12 ||< bd4-strs2:bdrm4
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
