@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,toil2 # tag version, format, zone name
-*date Wed Feb  6 18:28:12 2013  # latest file modification 
+*date Wed Feb  6 18:51:00 2013  # latest file modification 
 toilet2 on 1st floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,6.50000,4.50000,3.00000  #   1
@@ -29,7 +29,7 @@ toilet2 on 1st floor
 *surf,toil2-NORTH,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   3 ||< external
 *surf,toil2-stairs,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,02,08  #   4 ||< strs-toil2:stairs
 *surf,toil2-roof,CEIL,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   5 ||< external
-*surf,toil2-flr,FLOR,-,-,-,UNKNOWN,OPAQUE,ANOTHER,03,05  #   6 ||< toil1-ceil:toilet
+*surf,toil2-flr,FLOR,-,-,-,ceiling_rev,OPAQUE,ANOTHER,03,05  #   6 ||< toil1-ceil:toil1
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

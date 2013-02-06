@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,toil1 # tag version, format, zone name
-*date Wed Feb  6 18:28:37 2013  # latest file modification 
+*date Wed Feb  6 18:51:34 2013  # latest file modification 
 toilet1 on grnd floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,6.50000,4.50000,0.00000  #   1
@@ -24,12 +24,12 @@ toilet1 on grnd floor
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,toil1-living,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,01,05  #   1 ||< liivng-N3:living
-*surf,toil1-WEST,VERT,-,-,-,UNKNOWN,OPAQUE,EXTERIOR,0,0  #   2 ||< external
-*surf,toil1-garage,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,05,06  #   3 ||< garage-toil1:garage
-*surf,toil1-stairs,VERT,-,-,-,UNKNOWN,OPAQUE,ANOTHER,02,07  #   4 ||< strs-toil1:stairs
-*surf,toil1-ceil,CEIL,-,-,-,UNKNOWN,OPAQUE,ANOTHER,06,06  #   5 ||< toil2-flr:toil2
-*surf,toil1-flr,FLOR,-,-,-,UNKNOWN,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
+*surf,toil1-living,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,01,05  #   1 ||< liivng-N3:living
+*surf,toil1-WEST,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,0,0  #   2 ||< external
+*surf,toil1-garage,VERT,-,-,-,PH_ext_wll,OPAQUE,ANOTHER,05,06  #   3 ||< garage-toil1:garage
+*surf,toil1-stairs,VERT,-,-,-,intern_wall,OPAQUE,ANOTHER,02,07  #   4 ||< strs-toil1:stairs
+*surf,toil1-ceil,CEIL,-,-,-,ceiling,OPAQUE,ANOTHER,06,06  #   5 ||< toil2-flr:toil2
+*surf,toil1-flr,FLOR,-,-,-,grnd_floor,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
