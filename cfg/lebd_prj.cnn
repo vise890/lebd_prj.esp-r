@@ -1,5 +1,5 @@
 *connections for lebd_prj
-*Date Wed Feb  6 17:46:30 2013
+*Date Wed Feb  6 17:51:29 2013
      68   # number of connections
    1   1  -1   0   0  #    1 living-W in living not yet defined
    1   2  -1   0   0  #    2 living-N in living not yet defined
@@ -35,14 +35,14 @@
    4   4  -1   0   0  #   32 Wall-4 in bdrm1 not yet defined
    4   5  -1   0   0  #   33 Top-5 in bdrm1 not yet defined
    4   6  -1   0   0  #   34 Base-6 in bdrm1 not yet defined
-   5   1  -1   0   0  #   35 Wall-2 in garage not yet defined
-   5   2  -1   0   0  #   36 Wall-3 in garage not yet defined
-   5   3  -1   0   0  #   37 Wall-4 in garage not yet defined
-   5   4  -1   0   0  #   38 Top-5 in garage not yet defined
-   5   5  -1   0   0  #   39 Base-6 in garage not yet defined
-   5   6   0   0   0  #   40 Wall-3 in garage is External
-   5   7   0   0   0  #   41 Wall-3 in garage is External
-   5   8   0   0   0  #   42 Wall-3 in garage is External
+   5   1  -1   0   0  #   35 garage-E in garage not yet defined
+   5   2  -1   0   0  #   36 garage-N in garage not yet defined
+   5   3  -1   0   0  #   37 garage-W in garage not yet defined
+   5   4  -1   0   0  #   38 garage-top in garage not yet defined
+   5   5  -1   0   0  #   39 garage-flr in garage not yet defined
+   5   6   0   0   0  #   40 garage-t1 in garage is External
+   5   7   0   0   0  #   41 garage-strs in garage is External
+   5   8   0   0   0  #   42 garage-bdrm1 in garage is External
    6   1  -1   0   0  #   43 Wall-1 in toilet2 not yet defined
    6   2  -1   0   0  #   44 Wall-2 in toilet2 not yet defined
    6   3  -1   0   0  #   45 Wall-3 in toilet2 not yet defined
