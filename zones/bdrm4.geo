@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrm4 # tag version, format, zone name
-*date Wed Feb  6 19:05:32 2013  # latest file modification 
+*date Mon Feb 18 13:31:18 2013  # latest file modification 
 bdrm4 on 1st floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,3.50000,0.00000,3.00000  #   1
@@ -14,6 +14,10 @@ bdrm4 on 1st floor
 *vertex,6.50000,4.50000,6.00000  #  10
 *vertex,8.50000,4.50000,6.00000  #  11
 *vertex,8.50000,0.00000,6.00000  #  12
+*vertex,3.76393,0.00000,3.15836  #  13
+*vertex,8.23607,0.00000,3.15836  #  14
+*vertex,8.23607,0.00000,5.84164  #  15
+*vertex,3.76393,0.00000,5.84164  #  16
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,4,2,1,7,8  #  1
@@ -21,9 +25,10 @@ bdrm4 on 1st floor
 *edges,4,4,3,9,10  #  3
 *edges,4,5,4,10,11  #  4
 *edges,4,6,5,11,12  #  5
-*edges,4,1,6,12,7  #  6
+*edges,10,1,6,12,7,1,13,16,15,14,13  #  6
 *edges,6,8,7,12,11,10,9  #  7
 *edges,6,6,1,2,3,4,5  #  8
+*edges,4,13,14,15,16  #  9
 # 
 # surf attributes:
 #  surf name, surf position VERT/CEIL/FLOR/SLOP/UNKN
@@ -38,6 +43,7 @@ bdrm4 on 1st floor
 *surf,BD4-S,VERT,-,-,-,PH_ext_wll,OPAQUE,EXTERIOR,0,0  #   6 ||< external
 *surf,bd4-top,CEIL,-,-,-,PH_roof,OPAQUE,EXTERIOR,0,0  #   7 ||< external
 *surf,bd4-flr,FLOR,-,-,-,ceiling_rev,OPAQUE,ANOTHER,01,08  #   8 ||< living-top:living
+*surf,glz,VERT,BD4-S,C-WINDOW,CLOSED,tripglz_089,TRAN,EXTERIOR,0,0  #   9 ||< external
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

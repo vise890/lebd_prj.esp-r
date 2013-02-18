@@ -1,6 +1,6 @@
 *connections for lebd_prj
-*Date Mon Feb 18 13:30:06 2013
-     69   # number of connections
+*Date Mon Feb 18 13:31:44 2013
+     70   # number of connections
    1   1   0   0   0  #    1 living-W in living is External
    1   2   3   4   1  #    2 living-N in living >|< bdrm1-living in bdrm1
    1   3   3   2   1  #    3 living-N2 in living >|< strs-living in stairs
@@ -70,3 +70,4 @@
    9   6   0   0   0  #   67 BD4-S in bdrm4 is External
    9   7   0   0   0  #   68 bd4-top in bdrm4 is External
    9   8   3   1   8  #   69 bd4-flr in bdrm4 >|< living-top in living
+   9   9   0   0   0  #   70 glz in bdrm4 is External
